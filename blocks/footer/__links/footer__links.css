@@ -1,0 +1,13 @@
+.footer__links{
+  justify-self:start;
+  display: grid;
+  column-gap: 18px;
+  grid-auto-flow:column;
+
+}
+@media screen and (max-width: 425px){
+  .footer__links{
+    grid-auto-flow:row;
+    row-gap: 1.2em;
+  }
+}

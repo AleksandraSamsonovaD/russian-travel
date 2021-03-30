@@ -1,0 +1,12 @@
+.place{
+  display: grid;
+  column-gap: 48px;
+  row-gap: 40px;
+  grid-template-columns: repeat(2, 45%);
+}
+@media (max-width: 425px){
+  .place{
+    grid-template-columns: 100%;
+  }
+}
+
