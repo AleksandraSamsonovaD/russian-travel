@@ -1,16 +1,17 @@
 .places{
-  width: 80%;
+  max-width: 984px;
   margin: 0 auto;
+  padding: 92px 0;
 }
 @media (max-width: 768px){
   .places{
     width: 90%;
-    margin: 0;
+    padding: 88px 0 90px;
   }
 }
 @media (max-width: 425px){
   .places{
     width: 100%;
-    margin: 0;
+    padding: 64px 0 66px;
   }
 }

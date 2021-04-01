@@ -2,15 +2,19 @@
   display: grid;
   margin: 0 auto;
   padding-bottom: 24px;
-  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
   grid-template-rows: 18px;
   width: 90%;
   padding-top: 10%;
+}
+@media (max-width: 768px){
+  .footer{
+    width: 100%;
+  }
 }
 @media (max-width: 425px){
   .footer{
     grid-template-columns: 1fr;
     grid-template-rows: 5fr 1fr;
-
   }
 }

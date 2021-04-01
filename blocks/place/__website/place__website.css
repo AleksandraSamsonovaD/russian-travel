@@ -1,10 +1,9 @@
 .place__website{
-  display: inline;
   align-self: end;
 }
 @media (max-width: 425px){
   .place__website{
     width: 90%;
-    margin: 1em auto;
+    margin: 0 auto;
   }
 }
