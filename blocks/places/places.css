@@ -1,15 +1,17 @@
 .places{
-  max-width: 984px;
+  max-width:  1184px;
   margin: 0 auto;
   padding: 92px 0;
+  width: 90%;
+  display: grid;
+  justify-content: center;
 }
-@media (max-width: 768px){
+@media (max-width: 1023px){
   .places{
-    width: 90%;
     padding: 88px 0 90px;
   }
 }
-@media (max-width: 425px){
+@media (max-width: 767px){
   .places{
     width: 100%;
     padding: 64px 0 66px;

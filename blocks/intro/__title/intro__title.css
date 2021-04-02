@@ -5,7 +5,12 @@
   font-size: 54px;
   line-height: 58px;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 100px;
+}
+@media (max-width: 1024px) {
+  .intro__title{
+    padding: 0;
+  }
 }
 @media (max-width: 425px) {
   .intro__title{

@@ -5,16 +5,19 @@
   grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
   grid-template-rows: 18px;
   width: 90%;
-  padding-top: 10%;
+  padding-top: 92px;
+  max-width: 1184px;
 }
 @media (max-width: 768px){
   .footer{
-    width: 100%;
+    padding-top: 88px;
   }
 }
+
 @media (max-width: 425px){
   .footer{
     grid-template-columns: 1fr;
     grid-template-rows: 5fr 1fr;
+    padding-top: 64px;
   }
 }
