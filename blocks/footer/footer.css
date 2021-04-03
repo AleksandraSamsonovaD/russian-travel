@@ -1,21 +1,21 @@
-.footer{
+.footer {
   display: grid;
   margin: 0 auto;
   padding-bottom: 24px;
-  grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: 18px;
   width: 90%;
   padding-top: 92px;
   max-width: 1184px;
 }
-@media (max-width: 768px){
-  .footer{
+@media (max-width: 768px) {
+  .footer {
     padding-top: 88px;
   }
 }
 
-@media (max-width: 425px){
-  .footer{
+@media (max-width: 425px) {
+  .footer {
     grid-template-columns: 1fr;
     grid-template-rows: 5fr 1fr;
     padding-top: 64px;

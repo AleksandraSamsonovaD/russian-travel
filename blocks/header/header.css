@@ -1,4 +1,4 @@
-.header{
+.header {
   width: 90%;
   display: flex;
   margin: 0 auto;
@@ -8,7 +8,7 @@
   max-width: 1184px;
 }
 @media (max-width: 425px) {
-  .header{
+  .header {
     padding-top: 16px;
   }
 }

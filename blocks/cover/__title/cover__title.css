@@ -1,4 +1,4 @@
-.cover__title{
+.cover__title {
   text-align: center;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
@@ -11,8 +11,8 @@
   position: relative;
   z-index: 3;
 }
-@media (max-width: 767px){
-  .cover__title{
+@media (max-width: 767px) {
+  .cover__title {
     font-size: 32px;
     line-height: 35px;
     padding-bottom: 16px;

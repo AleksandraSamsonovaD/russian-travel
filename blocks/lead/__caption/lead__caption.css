@@ -1,4 +1,4 @@
-.lead__caption{
+.lead__caption {
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -11,8 +11,8 @@
   margin: 0 auto;
   text-align: left;
 }
-@media (max-width: 768px){
-  .lead__caption{
+@media (max-width: 768px) {
+  .lead__caption {
     width: 90%;
     margin: 0 auto;
   }

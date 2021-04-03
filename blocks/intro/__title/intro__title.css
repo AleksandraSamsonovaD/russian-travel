@@ -1,4 +1,4 @@
-.intro__title{
+.intro__title {
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -8,12 +8,12 @@
   padding: 0 0 0 100px;
 }
 @media (max-width: 1024px) {
-  .intro__title{
+  .intro__title {
     padding: 0;
   }
 }
 @media (max-width: 425px) {
-  .intro__title{
+  .intro__title {
     font-size: 32px;
     line-height: 35px;
   }

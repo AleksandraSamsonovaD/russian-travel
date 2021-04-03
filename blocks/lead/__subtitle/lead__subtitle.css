@@ -1,4 +1,4 @@
-.lead__subtitle{
+.lead__subtitle {
   text-align: center;
   width: 50%;
   font-family: Inter, Arial, sans-serif;
@@ -12,13 +12,13 @@
 }
 
 @media (max-width: 767px) {
-  .lead__subtitle{
+  .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
   }
 }
 @media (max-width: 425px) {
-  .lead__subtitle{
+  .lead__subtitle {
     width: 80%;
   }
 }

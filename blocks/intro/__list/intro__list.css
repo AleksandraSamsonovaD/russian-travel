@@ -1,5 +1,5 @@
-.intro__list{
-  list-style-type:none;
+.intro__list {
+  list-style-type: none;
   padding: 0 0 0 100px;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
@@ -9,7 +9,7 @@
   margin: 0;
 }
 @media (max-width: 1024px) {
-  .intro__list{
+  .intro__list {
     padding: 0;
   }
 }

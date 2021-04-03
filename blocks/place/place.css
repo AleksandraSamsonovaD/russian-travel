@@ -1,4 +1,4 @@
-.place{
+.place {
   display: grid;
   column-gap: 48px;
   row-gap: 40px;
@@ -6,13 +6,12 @@
   padding-top: 80px;
   max-width: 984px;
 }
-.place:nth-child(1){
+.place:nth-child(1) {
   padding-top: 0;
 }
-@media (max-width: 767px){
-  .place{
+@media (max-width: 767px) {
+  .place {
     grid-template-columns: 100%;
     padding-top: 50px;
   }
 }
-

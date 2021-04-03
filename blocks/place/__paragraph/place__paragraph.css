@@ -1,4 +1,4 @@
-.place__paragraph{
+.place__paragraph {
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -7,16 +7,15 @@
   margin: 0;
   padding-bottom: 26px;
 }
-@media (max-width: 1023px){
-  .place__paragraph{
+@media (max-width: 1023px) {
+  .place__paragraph {
     font-size: 16px;
     line-height: 26px;
     padding-bottom: 25px;
+  }
 }
-
-}
-@media (max-width: 767px){
-  .place__paragraph{
+@media (max-width: 767px) {
+  .place__paragraph {
     width: 90%;
     margin: 0 auto;
   }
