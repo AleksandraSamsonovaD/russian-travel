@@ -7,7 +7,7 @@
   color: white;
   background-size: cover;
   background-image: url(../../../images/cover-trains.jpg);
-  height: min(62.5vw, 740px);
+  min-height: min(62.5vw, 740px);
   position: relative;
   width: 100%;
 }
